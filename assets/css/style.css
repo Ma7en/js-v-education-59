@@ -996,6 +996,10 @@ body {
     text-align: center;
 }
 
+.copyright span {
+    display: inline;
+}
+
 .copyright-link {
     color: var(--kappel);
     display: inline-block;

@@ -55,3 +55,10 @@ const activeElem = function () {
 };
 
 addEventOnElem(window, "scroll", activeElem);
+
+// =====================================================
+//
+let dateYear = document.querySelector(".year");
+if (dateYear) {
+    dateYear.innerHTML = new Date().getFullYear();
+}
